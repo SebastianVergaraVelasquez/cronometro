@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    background-color: lightcoral;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contenido {
+    width: 30vw;
+    max-width: 30vw;
+    min-width: 250px;
+    height: 40vh;
+    background-color: lightblue;
+    outline: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#crono {
+    font-size: 4rem;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.boton {
+    height: 100px;
+    width: 100px;
+}
+
+.boton i {
+    font-size: 6rem;
+}
+
+#inicio-pausa.iniciar,
+#inicio-pausa.iniciar i {
+    background-color: greenyellow;
+}
+
+#inicio-pausa.pausar,
+#inicio-pausa.pausar i {
+    background-color: orange;
+}
+
+#reiniciar {
+    background-color: red;
+}
